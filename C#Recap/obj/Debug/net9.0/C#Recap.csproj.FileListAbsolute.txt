@@ -1,0 +1,14 @@
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\bin\Debug\net9.0\C#Recap.exe
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\bin\Debug\net9.0\C#Recap.deps.json
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\bin\Debug\net9.0\C#Recap.runtimeconfig.json
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\bin\Debug\net9.0\C#Recap.dll
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\bin\Debug\net9.0\C#Recap.pdb
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.AssemblyInfoInputs.cache
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.AssemblyInfo.cs
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.csproj.CoreCompileInputs.cache
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.dll
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\refint\C#Recap.dll
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.pdb
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.genruntimeconfig.cache
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\ref\C#Recap.dll
