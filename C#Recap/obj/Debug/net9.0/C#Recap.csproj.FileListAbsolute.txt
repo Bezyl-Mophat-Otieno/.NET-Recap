@@ -12,3 +12,4 @@ C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\refint\
 C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.pdb
 C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.genruntimeconfig.cache
 C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\ref\C#Recap.dll
+C:\Users\BezylMophatOtieno\source\repos\C#Recap\C#Recap\obj\Debug\net9.0\C#Recap.sourcelink.json
