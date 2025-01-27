@@ -170,11 +170,15 @@ namespace entry
 
             // Console.WriteLine(mophat["Name"]);
 
-            var joinedString = Leetcode.MergeAlternately("abs","bbs");
-            Console.WriteLine($"Resulting string {joinedString}");
-            var gcd = Leetcode.GcdOfStrings("ABABAB","ABAB");
-            Console.WriteLine(gcd);
+            // var joinedString = Leetcode.MergeAlternately("abs","bbs");
+            // Console.WriteLine($"Resulting string {joinedString}");
+            var gcdString = Leetcode.GcdOfStrings("ABABAB","ABAB");
+            Console.WriteLine(gcdString);
 
+            var gcdNum = Leetcode.GcdOfNumbers(48,18);
+            Console.WriteLine(gcdNum);
+            var gcdNum3 = Leetcode.GcdOfNumbers(Leetcode.GcdOfNumbers(48,12),18);
+            Console.WriteLine(gcdNum3);
         }
     }
 }

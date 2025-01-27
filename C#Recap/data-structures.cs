@@ -19,19 +19,21 @@ namespace leetcode_questions
     }
 
     public static string GcdOfStrings(string str1, string str2) {
-        var gcd = new StringBuilder();
-        int i = 0;
-        int lengthOfTheSmallerString = str1.Length > str2.Length ? str2.Length : str1.Length;
-        while (i<lengthOfTheSmallerString){
-            if(str1.Contains(gcd.ToString()) && str2.Contains(gcd.ToString())) {
-                Console.WriteLine($"gcd:{gcd}, index:{i}");
-                gcd.Append(str1[i++]);
-            } else {
-                break;
-            }
+        if(str1 + str2 != str2 + str1 ){
+            return "";
         }
-        return gcd.ToString();
+        int gcdOfStringLengths = GCD(str1.Length, str2.Length);
+        return str1.Substring(0, gcdOfStringLengths);
     }
+
+    public static int GcdOfNumbers ( int a, int b ) {
+        return GCD(a,b);
+    }
+
+    static int GCD(int a, int b){
+        return b == 0 ? a : GCD(b, a%b );
+    }
+
 }
     
 }
