@@ -141,14 +141,29 @@ namespace code
     static class MathUtilities
     {
         public const double PI = 3.142;
+
+        public delegate string SendNotification(string message);
         public static int Add(int a, int b)
-        {
+        { 
+            SendNotification newFunction1  = messaging1;
+            newFunction1 += messaging1;
+
+            Console.WriteLine(newFunction1($"The sum of {a} {b} have been computed"));
             return a + b;
         }
 
         public static double AreaOfacircle(double radius)
         {
             return PI * radius * radius;
+        }
+
+        private static string messaging1(string message)
+        {
+            return message;
+        }
+         private static string messaging2(string message)
+        {
+            return message;
         }
     }
 

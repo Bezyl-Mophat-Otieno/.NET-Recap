@@ -172,13 +172,20 @@ namespace entry
 
             // var joinedString = Leetcode.MergeAlternately("abs","bbs");
             // Console.WriteLine($"Resulting string {joinedString}");
-            var gcdString = Leetcode.GcdOfStrings("ABABAB","ABAB");
-            Console.WriteLine(gcdString);
+            // var gcdString = Leetcode.GcdOfStrings("ABABAB","ABAB");
+            // Console.WriteLine(gcdString);
 
-            var gcdNum = Leetcode.GcdOfNumbers(48,18);
-            Console.WriteLine(gcdNum);
-            var gcdNum3 = Leetcode.GcdOfNumbers(Leetcode.GcdOfNumbers(48,12),18);
-            Console.WriteLine(gcdNum3);
+            // var gcdNum = Leetcode.GcdOfNumbers(48,18);
+            // Console.WriteLine(gcdNum);
+            // var gcdNum3 = Leetcode.GcdOfNumbers(Leetcode.GcdOfNumbers(48,12),18);
+            // Console.WriteLine(gcdNum3);
+            // MathUtilities.Add(60,70);
+            var newArray = Leetcode.KidsWithCandies([2,8,7], 1);
+
+            foreach( var item in newArray) {
+                Console.WriteLine(item);
+            }
+
         }
     }
 }

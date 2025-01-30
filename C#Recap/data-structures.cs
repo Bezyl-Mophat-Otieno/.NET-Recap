@@ -34,6 +34,18 @@ namespace leetcode_questions
         return b == 0 ? a : GCD(b, a%b );
     }
 
+    public static IList<bool> KidsWithCandies(int[] candies, int extraCandies) {
+        int maxCandies = candies[0];
+        bool[] booleanCandyArray = new bool[candies.Length];
+        for (int i=0 ; i < candies.Length; i++){
+            maxCandies = candies[i] > maxCandies ? candies[i] : maxCandies;
+        }
+        for ( int i = 0 ; i < candies.Length; i ++ ){
+            booleanCandyArray[i] =  candies[i] + extraCandies > maxCandies;
+        }
+        return booleanCandyArray;
+    }
+
 }
     
 }
